@@ -17,6 +17,8 @@ echo \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
+cp ./apt /etc/apt/apt.conf.d/proxy.conf
+
 apt-get update
 
 

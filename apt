@@ -1,0 +1,1 @@
+Acquire::http::Proxy::download.docker.com "http://fodev.org:8118/";
